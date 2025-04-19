@@ -1,32 +1,64 @@
-body {
+/* General styles */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f4f4;
+    line-height: 1.6;
+    background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header */
 header {
-    background: #0d1b2a;
-    color: white;
-    padding: 2em;
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #fff;
+    padding: 80px 0;
     text-align: center;
 }
 
-main {
-    padding: 2em;
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
+header p {
+    font-size: 24px;
+}
+
+/* Sections */
 section {
-    margin-bottom: 2em;
-    background: white;
-    padding: 1.5em;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 60px 20px;
 }
 
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* About and Mission sections */
+.about, .mission {
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about h2, .mission h2 {
+    margin-bottom: 20px;
+    color: #004e92;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 1em;
-    background: #1b263b;
-    color: #ccc;
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
 }

@@ -1,0 +1,13 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004e92"></stop>
+      <stop offset="100%" stop-color="#000428"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" fill="none"></rect>
+  <text x="50%" y="50%" font-family="Segoe UI, Tahoma, sans-serif" font-size="32" fill="url(#grad1)" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+    8MP
+  </text>
+</svg>

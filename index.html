@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8MP - The 8th Millennium Problem</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>8MP | The Ultimate Challenge</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>8MP: The 8th Millennium Problem</h1>
-            <p>Unveiling Humanity's Next Great Challenge</p>
-        </div>
-    </header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About 8MP</a></li>
-                <li><a href="#">Manifesto</a></li>
-                <li><a href="#">Join Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <div class="logo">
+        <!-- replace with your logo file in assets/logo.svg -->
+        <img src="assets/logo.svg" alt="8MP Logo" height="40">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About 8MP</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Welcome to the Future</h2>
-            <p>The 8th Millennium Problem dares humanity to achieve what was once unthinkable.  
-               Join us as we launch a global revolution of thought, science, and spirit.</p>
-            <a href="#" class="btn">Learn More</a>
-        </div>
-    </section>
+  <!-- HERO WITH INTRO VIDEO -->
+  <section id="hero" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <!-- place your intro.mp4 in assets/intro.mp4 -->
+      <source src="assets/intro.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>The 8th Millennium Problem</h1>
+      <p>Unveiling humanity’s next great challenge. <br>Redefining what it means to think.</p>
+      <a href="#join" class="btn">Join the Movement</a>
+    </div>
+  </section>
 
-    <section class="about">
-        <div class="container">
-            <h2>What is 8MP?</h2>
-            <p>8MP stands for the 8th Millennium Problem — a bold initiative to define and solve the ultimate question of humanity’s existence and purpose, blending science, philosophy, and technology at the highest level.</p>
-        </div>
-    </section>
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>What is the 8MP?</h2>
+      <p>
+        The 8th Millennium Problem is the ultimate intellectual challenge, designed to push humanity’s thinking beyond all known limits — 
+        a call to transcend the boundaries of science, philosophy, and imagination to solve the most profound question ever posed.
+      </p>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>Created by Hazem Eskander | All rights reserved © 2025</p>
-        </div>
-    </footer>
+  <!-- VISION -->
+  <section id="vision" class="section vision">
+    <div class="container">
+      <h2>Vision</h2>
+      <p>
+        To redefine the limits of human knowledge and inspire future generations to dream beyond reality.
+      </p>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section id="mission" class="section mission">
+    <div class="container">
+      <h2>Mission</h2>
+      <p>
+        To rally the world’s greatest thinkers around the challenge of solving the 8th Millennium Problem — unlocking new realms of possibility for humanity’s future.
+      </p>
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section id="join" class="section join">
+    <div class="container">
+      <h2>Join the Movement</h2>
+      <p>Be part of history. Sign up now and we’ll notify you as soon as the 8MP portal opens.</p>
+      <form class="join-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit" class="btn">Notify Me</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>Created by Hazem Eskander | Cognisync 2025</p>
+      <p>© 2025 8th Millennium Problem Initiative. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
+
